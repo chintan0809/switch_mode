@@ -3,6 +3,7 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+import SwitchMode from "../SwitchMode";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
@@ -22,6 +23,7 @@ export default function Navbar() {
           <NavLink className="links" to="/postform">
             Add Post
           </NavLink>
+          <SwitchMode />
         </Toolbar>
       </AppBar>
     </Box>
